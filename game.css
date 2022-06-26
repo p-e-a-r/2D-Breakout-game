@@ -1,0 +1,43 @@
+.container{
+    height: 500px;
+    width: 760px;
+    border: solid black 10px;
+    position: absolute;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block{
+   
+    position: absolute;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+  
+}
+
+.player {
+
+    position: absolute;
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 110px;
+    background-size: contain;
+
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+}
